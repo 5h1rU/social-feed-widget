@@ -1,0 +1,18 @@
+dl {
+  background: ghostwhite;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+dl:nth-child(even) {
+  background: gainsboro;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt::after {
+  content: ": ";
+}
